@@ -1,0 +1,24 @@
+@media screen and (max-width: 650px) {
+
+nav ul {
+		max-height:0;
+	}
+	.show {
+		max-height: 7em;
+	}
+
+	nav ul li{
+		box-sizing: border-box;
+		width:100%;
+		padding: 15px;
+		margin-top:10px;
+	}
+	.handtag {
+		display:block;
+		color:white;
+		font-size:100%;
+	}
+	nav > ul > li > img {
+		display:none;
+	}
+}
